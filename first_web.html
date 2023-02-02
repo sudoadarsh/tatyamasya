@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags can help in SEO as well as linking external CSS and JS. -->
+    <!-- Internal css are also written inside the head tags. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Linking a external CSS file. -->
+    <link rel="stylesheet" href="first_web.css"> 
+</head>
+<body>
+    <h1>Sign into your account</h1>
+    <span>You have not yet enabled <span id="red_element">two factor authentication</span></span>
+    <!-- A HTML form has a html frontend and a backend to process the form. -->
+    <br>
+    <br>
+    <form action = "backend.php" method = "post">
+        <!-- Input tag attribute [id] is used by js/css to access the element. -->
+        <!-- Attribute name is used to access the form data. -->
+        <input type="text" name="username" id="username" value="Username">
+        <br><br>
+        <input type="text" name="password" id="password" value="Password">
+        <br><br>
+        <label for="remember_me">Keep Me Logged in</label>
+        <input type="checkbox" name="remember_me" id="remember_me" checked="true">
+        <br><br>
+        <!-- This will post the form data. -->
+        <input type="submit" value="Login">
+        <br><br>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label class="alert">Accept terms and conditions.</label>
+    </form>
+    <!-- Footer in HTML. -->
+    <footer>Version 1.0.0</footer>
+</body>
+</html>

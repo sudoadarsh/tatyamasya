@@ -1,0 +1,16 @@
+/* Selector with id  */
+#red_element{
+    color: red;
+}
+
+/* Selector with class */
+.alert {
+    color: teal;
+}
+
+/* Selector with element  */
+footer {
+    color: rgb(147, 141, 141);
+    font-size: 10px;
+    padding-top: 10px;
+}

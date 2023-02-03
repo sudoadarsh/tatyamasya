@@ -6,6 +6,9 @@
 /* Selector with class */
 .alert {
     color: teal;
+
+    /* Use of font stack since fonts can be either web-safe or web. */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 /* Selector with element  */

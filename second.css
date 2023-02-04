@@ -1,0 +1,39 @@
+/* Global selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Class selector  */
+
+.container {  
+    width: 900px;
+    border: 2px solid rgb(242, 235, 235);
+    margin: 50px auto;
+}
+
+.item {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(242, 235, 235);
+    margin: 12px 3px;
+    padding: 12px 3px;
+}
+
+/* ID selectors  */
+
+#fruits {
+    padding: 12px;
+    float: left;
+    width: 49%;
+}
+
+#vegetables {
+    padding: 12px;
+    float: right;
+    width: 49%;
+
+}
+
+#nonveg { 
+    clear: both;
+}
